@@ -16,6 +16,7 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://frontend-s-sl-cloud.vercel.app",
       "https://userportal-five.vercel.app",
       "https://adminportal-wine.vercel.app",
       "http://localhost:3000",
